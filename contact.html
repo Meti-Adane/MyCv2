@@ -11,9 +11,9 @@
     <!-- Lets start ... -->
     <hr>
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="contact.html">Contact</a> | 
-        <a href="Gallery.html">Gallery</a>
+        <a href="index.html">HOME</a>  &nbsp;| &nbsp; 
+        <a href="contact.html">CONTACT</a>  &nbsp;|&nbsp;  
+        <a href="Gallery.html">GALLERY</a>
         
     </nav>
 
@@ -34,39 +34,39 @@
     <br>
     <br>
     <br>
-    <p> Contact us</p>
+    
     <hr>
-<table >
+<table ><tr><td>
+    <h3> Contact us</h3>
         <form action="mailto:metiade7@gmail.com" method="post">
         <tr>
         <td>
+            <table><tr>
             <tr>
                 <td><label for="fName">First Name</label></td>
-                <td><input type="text" id="fName" name="fName" pattern="[A-Za-z]+" required="required"></td>
+                <td><input type="text" id="fName" name="fName" pattern="[A-Za-z]+" required="required" placeholder="First name"></td>
             </tr>
 
             <tr>
                 <td><label for="sName">Sur Name</label></td>
            
-                <td><input type="text" id="sName" name="sName" pattern="[A-Za-z]+" required="required"></td>
-                
-            
-                
+                <td><input type="text" id="sName" name="sName" pattern="[A-Za-z]+" required="required" placeholder="Last name"></td>
+             
             </tr>
             <tr>
                 <td><label for="eName">Email</label></td>
-                <td><input type="email" id="eName" name="eName"></td>
+                <td><input type="email" id="eName" name="eName" placeholder="someone@example.com" pattern=".+@.+\..+"></td>
             </tr>
 
             <tr>
                 <td><label for="password">Password</label></td>
-                <td><input type="password" id="password" placeholder="Enter your password here" pattern="[a-z][0-9][A-z]{6,}" 
+                <td><input type="password" id="password" placeholder="Minimum of 8 characters" pattern=".{8,}" 
                     required title="Your password should contain a minimum of 6 characters."> </td>
             </tr>   
             
             <tr>
-                 <td><h4>Where are you from?</h4></td>           
-                <td><input name="C" list="Countries" placeholder="None" id="countryList">
+                 <td><label for="countryList"> Where are you from</label></td>           
+                <td><input name="C" list="Countries" placeholder="Afghanistan" id="countryList">
         
                     <datalist id="Countries">
                         <option value="Afganistan">Afghanistan</option>
@@ -321,16 +321,8 @@
 
             <tr>
                 <td> <label for="phoneNumber">Phone Number</label></td>
-                <td><input type="tel" id ="phoneNumber" pattern="\+[0-9]{12}|[0-9]{10}]"title="Please use the appropriate Phone number format"></tr></td> 
+                <td><input type="tel" id ="phoneNumber" pattern="\+[0-9]{12}|[0-9]{10}]"title="Please use the appropriate Phone number format" placeholder="Enter your number"></tr></td> 
             </tr>
-                
-            <tr>
-                <td><h3>What do you want to say?</h3></td>
-            </tr>
-            <tr>
-                <td><textarea name="" id="" cols="30" rows="10" name="details"></textarea></td>
-            </tr>
-            
             <tr>
                 <td><label for="slider">Rate the website </label></td>
                 <td><input type="range" min="0" max="100" value="0" step="5" id="slider"></td>
@@ -350,28 +342,52 @@
                 </td>
             </tr>
         
+            
+            <tr>
+                <td><h3>What do you want to say?</h3></td>
+            </tr>
+            <tr>
+                <td><textarea name="" id="" cols="30" rows="10" name="details"></textarea></td>
+            </tr>
+            
+            
             <tr>
                 <td><input type="submit" value= "submit"></td>
             </tr>
-
+        
         </td>
-        </tr>   
+           
         </form>
-        </table>      
-            <iframe width="600" height="500" src="https://maps.google.com/maps?q=addis%20ababa%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-            <a href="https://www.whatismyip-address.com">
+        <tr>
+            <td>
+                <pre><br><br><br><br><br></pre>
+            </td>
+        </tr>
+        <tr><td><a href="https://www.facebook.com/" targert = "_blank"><img src="./Assets/images/black-facebook-logo-png.png" alt="Facebook logo" width="15dp" height = "25dp" ></a>  
+<a href="https://twitter.com/" target = "_blank"><img src="./Assets/Images/Twitter-Logo.png" alt="Twitter logo" width="20dp" height = "25dp"  ></a> 
+<a href="https://www.youtube.com/" target="_blank"><img src="Assets/Images/Youtube.jpg" alt="instagram logo" width="20dp" height = "25dp" ></a> </td></tr>
+
+<tr>
+    <td><footer><center><small><font color="gray"> Meti Adane &copy; 2020</font></small></center></footer></td>
+</tr>
+    </td></table>
+
         
-        
-        
-        
+    <td><table>    
+        <td>
+            <tr>   
+                <iframe width="600" height="500" src="https://maps.google.com/maps?q=addis%20ababa%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a href="https://www.whatismyip-address.com">
+            </tr> 
+        </td> 
+    </td>
+</tr>
+</table>
 
 
-<hr>
 
-<a href="https://www.facebook.com/" targert = "_blank">Face Book</a> | 
-<a href="https://twitter.com/" target = "_blank">Twitter</a> | 
-<a href="https://www.youtube.com/" target="_blank">Youtube</a> 
 
-<hr>
+
+
 </body>
 </html>
